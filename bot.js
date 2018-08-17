@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const ytdl = require("ytdl-core");
 const { colors } = require("./utils.json");
 var HashMap = require('hashmap');
 var map = new HashMap();
