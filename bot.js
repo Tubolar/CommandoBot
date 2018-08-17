@@ -2,21 +2,21 @@ const Discord = require("discord.js");
 const { colors } = require("./utils.json");
 var HashMap = require('hashmap');
 var map = new HashMap();
- const { VK } = require('vk-io')
-const vk = new VK({token: process.env.VK_TOKEN
-})
+const { VK } = require('vk-io');
+const vk = new VK({token: process.env.VK_TOKEN});
+const fs = require("fs");
 require("colors");
 const bot = new Discord.Client({
     disabledEvents: ["TYPING_START"]
 });
 
-const fs = require("fs");
+
 bot.commands = new Discord.Collection()
 require("colors")
 fs.readdir("./Cmds/", (err,files) =>{
 
 
-    if(err) console.log(err);
+    if(err) console.error(err);
 
 
 
