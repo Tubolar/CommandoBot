@@ -1,0 +1,351 @@
+{   "help": {
+    "name": "help",
+    "usage": "`}help`",
+    "desc": "Показывает список команд для помощи.",
+    "requires": "USER",
+    "module": "Help"
+},
+    "modules":  {
+        "name": "modules",
+        "usage": "`}modules`",
+        "desc": "Показывет список доступных модулей.",
+        "requires": "USER",
+        "module": "Help"
+    },
+"steam":  {
+"name": "steam",
+"usage": "`}steam <Имя игры>`",
+"desc": "Показывет информацию о игре в Steam.",
+"requires": "USER",
+"module": "Search"
+},
+"fox": {
+"name": "fox",
+"usage": "`}fox`",
+"desc": "Случайное изображение лисы.",
+"requires": "USER",
+"module": "Random"
+},
+"cat": {
+"name": "cat",
+"usage": "`}cat`",
+"desc": "Случайное изображение кошки.",
+"requires": "USER",
+"module": "Random"
+},
+"dog": {
+"name": "dog",
+"usage": "`}dog`",
+"desc": "Случайное изображение собаки.",
+"requires": "USER",
+"module": "Random"
+},
+"stats": {
+    "name": "stats",
+    "usage": "`}stats`",
+    "desc": "Показывает некоторю информацию о боте.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"weather": {
+    "name": "weather",
+    "usage": "`}weather <Имя города>`",
+    "desc": "Показывает информацию о погоде.",
+    "requires": "USER",
+    "module": "Utility"  
+},
+"videoinfo": {
+    "name": "videoinfo",
+    "usage": "`}videoinfo <Ссылка на видео YouTube>`",
+    "desc": "Показывает некоторую информацию о видео.",
+    "requires": "USER",
+    "module": "Utility"  
+},
+"userinfo": {
+    "name": "userinfo",
+    "usage": "`}userinfo @b1nzy` или `}userinfo`",
+    "desc": "Показывает некоторую информаци об участнике сервера.",
+    "requires": "USER",
+    "module": "Utility"  
+},
+"uid": {
+    "name": "uid",
+    "usage": "`}uid @b1nzy` или `}uid`",
+    "desc": "ID участника сервера.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"embed": {
+"name": "embed",
+"usage": "`}embed Ваш код,по указанным выше значениям`.",
+"desc": "Команда встраивания.\n{параметр:объект}.\n{title:Оглавление(до 512 символов)\n{url: URL-ссылка,которая будет накладываться на оглавление}\n{description: Описание(до 2048 символов)}\n{image: Ссылка на изображение}\n{thumbnail: Ссылка на thumbnail}\n{footer: Нижний колонтитул(до 2048 символов)+ icon_url: Ссылка на изображение нижнего колонтитула}\n{fieldt:Оглавление поля + value: Значение поля (до 25 полей) + true(необязательно)}\n{color: Hex-значение цвета}\n{timestamp(можно добавить своё значение(new Date()}\n{author: Имя автора + icon_url: Ссылка на изображение + url:Ссылка,которая будет накладываться на имя автора.}",
+"requires": "USER",
+"module": "Utility"
+},
+"channelinfo": {
+    "name": "channelinfo",
+    "usage": "`}channelinfo` либо `}channelinfo <Имя канала.>",
+    "desc": "Показывает некоторую информацию о канале.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"channeltopic": {
+    "name": "channeltopic",
+    "usage": "`}channeltopic`",
+    "desc": "Показывает тему канала,если такова имеется",
+    "requires": "USER",
+    "module": "Utility"
+},
+"addrole": {
+    "name": "addrole",
+    "usage": "`}addrole @user {r:Имя роли}(сколько угодно).`",
+    "desc": "Добавляет роль(роли) указанному участнику сервера.\nP.S Роль бота должна быть __выше__,чем указанная роль(роли) в параметре.",
+    "requires": "USER\n\"MANAGE_ROLES\"",
+    "module": "Administration"
+},
+"say": {
+    "name": "say",
+    "usage": "`}say <Ваш текст>`",
+    "desc": "Отправляет сообщение с текстом,который Вы указали.\nПрисутствуют заполнители: ```\n%user%\n%user.id%\n%user.createdDate%\n%user.createdTime%\n%user.joinedDate%\n%user.joinedTime%\n```",
+    "requires": "USER\n\"MANAGE_MESSAGES\"",
+    "module": "Utility"
+},
+"avatar": {
+    "name": "avatar",
+    "usage": "`}avatar` либо `}avatar @user",
+    "desc": "Показывает аватар указанного участника",
+    "requires": "USER",
+    "module": "Utility"
+},
+"8ball": {
+    "name": "8ball",
+    "usage": "`}8ball <Ваш вопрос>`",
+    "desc": "Отвечает на заданный вопрос.",
+    "requires": "USER",
+    "module": "Random"
+},
+"botname": {
+    "name": "botname",
+    "usage": "`}botname <новое имя бота>`",
+    "desc": "Устанавливает новое имя бота.",
+    "requires": "USER\nBOT OWNER",
+    "module": "Owner"
+},
+"cid": {
+    "name": "cid",
+    "usage": "`}cid`",
+    "desc": "Показывает ID канала.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"catfact": {
+    "name": "catfact",
+    "usage": "`}catfact`",
+    "desc": "Показывает случайный факт о кошках.",
+    "requires": "USER",
+    "module": "Random"
+},
+"wiki": {
+    "name": "wiki",
+    "usage": "`}wiki` либо `}wiki <Термин>`",
+    "desc": "Показывет информацию из Википедии",
+    "requires": "USER",
+    "module": "Search"
+},
+"menrole": {
+    "name": "menrole",
+    "usage": "`}menrole <имя роли>`",
+    "desc": "Упоминает роль,даже если она неупоминаемая.",
+    "requires": "USER\n \"MANAGE_ROLES\"",
+    "module": "Utility"
+},
+"vkuser": {
+    "name": "vkuser",
+    "usage": "`}vkuser Имя искомого пользователя Вконтакте` или `}vkuser ID искомого участника`, или `}vkuser paveldurov(если у участника есть пользовательская ссылка,вместо стандартного ID).`",
+    "desc": "Показывает некоторую информацию о пользователе соц.сети Вконтакте.",
+    "requires": "USER",
+    "module": "Search"
+},
+"vkgroup": {
+    "name": "vkgroup",
+    "usage": "`}vkgroup lol`",
+    "desc": "Показывет некоторую информацию о сообществе соц.сети Вконтакте",
+    "requires": "USER",
+    "module": "Search"
+},
+"urb": {
+    "name": "urb",
+    "usage": "`}urb Искомый термин`",
+    "desc": "Показывает информацию о слове или выражении.",
+    "requires": "USER",
+    "module": "Search"
+},
+"settopic": {
+    "name": "settopic",
+    "usage": "`}settopic новая тема`",
+    "desc": "Устанавливает новую тему канала",
+    "requires": "USER\n\"MANAGE_CHANNELS\"",
+    "module": "Administration"
+},
+"setstream": {
+    "name": "setstream",
+    "usage": "`}setstream [name: Тема стрима][url:Ссылка на стрим]`",
+    "desc": "Устанавливает стрим боту.",
+    "requires": "USER\nBOT OWNER",
+    "module": "Owner"
+}, 
+"setstatus": {
+    "name": "setstatus",
+    "usage": "`}setstatus Тип статуса`",
+    "desc": "Устанавливает статус боту(Online,Dnd,Offline,Idle)",
+    "requires": "USER\nBOT OWNER",
+    "module": "Owner"
+},
+"setavatar": {
+    "name": "setavatar",
+    "usage": "`}setavatar URL-ссылка`",
+    "desc": "Устанавливает новый аватар боту",
+    "requires": "USER\nBOT OWNER",
+    "module": "Owner"
+},
+"serverinfo": {
+    "name": "serverinfo",
+    "usage": "`}serverinfo`",
+    "desc": "Показывает некоторую информацию о сервере.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"send": {
+    "name": "send",
+    "usage": "`}send ID участника|сообщение`",
+    "desc": "Отправляет сообщение участнику сервера.",
+    "requires": "USER\nBOT OWNER",
+    "module": "Owner"
+},
+"roleinfo": {
+    "name": "roleinfo",
+    "usage": "`}roleinfo <имя роли>`",
+    "desc": "Показывает некоторую информацию о роли.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"restart": {
+    "name": "restart",
+    "usage": "`}restart`",
+    "desc": "Перезапускает бота.",
+    "requires": "USER\nBOT OWNER",
+    "module": "Owner"
+},
+"removerole": {
+    "name": "removerole",
+    "usage": "`}removerole @user {r:ИмяРоли}(Сколько угодно)`",
+    "desc": "Убирает роль(роли) от указанного участника сервера.",
+    "requires": "USER\n\"MANAGE_ROLES\"",
+    "module": "Administration"
+},
+"react": {
+    "name": "react",
+    "usage": "`}react {emoji:Имя emoji}(до 25)`",
+    "desc": "Ставит реакции на ваше сообщение",
+    "requires": "USER",
+    "module": "Utility"
+},
+"emojimg": {
+    "name": "emojimg",
+    "usage": "`}emojimg Имя emoji`",
+    "desc": "Отправляет URL-ссылку указанного emoji",
+    "requires": "USER",
+    "module": "Utility"
+},
+"ping": {
+    "name": "ping",
+    "usage": "`}ping`",
+    "desc": "Показывает отклик бота.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"osu": {
+    "name": "osu",
+    "usage": "`}osu ИмяИгрока`",
+    "desc": "Показывет некоторую информацию о игроке **osu!**",
+    "requires": "USER",
+    "module": "Search"
+},
+"notify": {
+    "name": "notify",
+    "usage": "`}notify [msg:сообщение][time:Время,через которое бот отправит вам напоминание]`",
+    "desc": "Уведомит Вас,если Вам требуется что-то напомнить.",
+    "requires": "USER",
+    "module": "Utility"
+},
+"nasa": {
+    "name": "nasa",
+    "usage": "`}nasa` || `}nasa ВашТермин`",
+    "desc": "Показывает статью из проектов NASA.",
+    "requires": "USER",
+    "module": "Search"
+},
+"imgur": {
+    "name": "imgur",
+    "usage": "`}imgur lol`",
+    "desc": "Показывает изображение с сайта [imgur](https://imgur.com/)",
+    "requires": "USER",
+    "module": "Search"
+},
+"gif": {
+    "name": "gif",
+    "usage": "`}gif lol`",
+    "desc": "Показывает gif-изображение с сайта [giphy](https://giphy.com/)",
+    "requires": "USER",
+    "module": "Search"
+},
+"delrole": {
+    "name": "delrole",
+    "usage": "`}delrole ИмяРоли`",
+    "desc": "Удаляет указанную роль на сервере.",
+    "requires": "USER\n\"MANAGE_ROLES\"",
+    "module": "Administration"
+},
+"crrole": {
+    "name": "crrole",
+    "usage": "`}crrole [name:ИмяРоли][mentionable](упоминаемая роль или нет.)[position:ПозицияРоли][color:Значение цвета]`",
+    "desc": "Создаёт роль с указанными параметрами.\nПараметры:\n[name:ИмяРоли]:Указывает имя роли(обязательно)\n[color:ЦветРоли]:указывает цвет роли при создании(необязательно)\n[position:ПозицияРоли]:ставит роль в определённую позицию ролей сервера(необязательно)P.S Позиция роли не должна быть выше,чем позиция роли бота\n[mentionable]:делает роль упоминаемой при создании(не обязательно).",
+    "requires": "USER\n\"MANAGE_ROLES\"",
+    "module": "Administration"
+},
+"ctchannel": {
+    "name": "ctchannel",
+    "usage": "`}ctchannel flood`",
+    "desc": "Создаёт тектовый канал с указанным названием.",
+    "requires": "USER\n\"MANAGE_CHANNELS\"",
+    "module": "Administration"
+},
+"cvchannel": {
+    "name": "cvchannel",
+    "usage": "`}cvchannel flood`",
+    "desc": "Создаёт голосовой канал с указанным названием.",
+    "requires": "USER\n\"MANAGE_CHANNELS\"",
+    "module": "Administration"
+},
+"crcategory": {
+    "name": "crcategory",
+    "usage": "`}crcategory flood`",
+    "desc": "Создаёт категорию с указанным названием.",
+    "requires": "USER\n\"MANAGE_CHANNELS\"",
+    "module": "Administration"
+},
+"norris": {
+    "name": "norris",
+    "usage": "`}norris`",
+    "desc": "Показывает случайный факт о Чаке Норрисе.",
+    "requires": "USER",
+    "module": "Random"
+},
+"advice": {
+    "name": "advice",
+    "usage": "`}advice`",
+    "desc": "Показывает случайный совет.",
+    "requires": "USER",
+    "module": "Random"
+}
+}
