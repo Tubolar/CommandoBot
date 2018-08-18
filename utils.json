@@ -1,0 +1,14 @@
+{
+    "colors": {
+        "ok": "#53c68c",
+        "err": "#b30000"
+    },
+    "botstats": {
+    "version": "0.0.7",
+    "type": "alpha"
+    },
+    "modules": [
+        "Owner\nAdministration\nUtility\nSearches\nGames\nRandom"
+    ],
+    "owner": "336807875605168128"
+}
