@@ -18,7 +18,7 @@ try {
     } else if(roleMentionable == null) {
         finalMentionable = false
     }
-    let rolePosition = params.match(/\[position:(.*?)/i)
+    let rolePosition = params.match(/\[position:(.*?)\]/i)
         if(rolePosition !== null) {
             finalPosition = rolePosition[1]
         }
