@@ -4,13 +4,13 @@ const request = require("node-superfetch");
 module.exports.run = async (bot, msg, args) => {
     try {
         var game = args.join(" ")
-        if(!game) return msg.channel.sendEmbed(new Discord.RichEmbed().setTitle("Произошла ошибка").setDescription("Вы не указали игру.").setColor(colors.err))
+        if(!game) return msg.channel.sendEmbed(new Discord.RichEmbed().setTitle("Произошла ошибка").setDescription("Вы не указали игру.").setColor(colors.err));
         const search = await request
         .get('https://store.steampowered.com/api/storesearch')
         .query({
             cc: 'ru',
             l: 'ru',
-            term: args[0]
+            term: game
         });
     if (!search.body.items.length) return msg.channel.sendEmbed(new Discord.RichEmbed().setTitle("Ничего не найдено."));
     const { id, tiny_image } = search.body.items[0];
