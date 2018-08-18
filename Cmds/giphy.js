@@ -14,8 +14,8 @@ module.exports.run = async (bot, msg, args) => {
                 if (!body.data.length) return msg.channel.sendEmbed(new Discord.RichEmbed().setDescription("Ничего не найдено."));
                 var embed = new Discord.RichEmbed()
                 .setImage(body.data[Math.floor(Math.random() * body.data.length)].images.original.url)
-                .setColor("RANDOM")
-			msg.channel.send(embed)
+                .setColor("RANDOM");
+                msg.channel.send(embed)
     } catch (error) {
         msg.channel.sendEmbed(new Discord.RichEmbed().setTitle("Произошла ошибка").setDescription(error).setColor(colors.err))
     }
