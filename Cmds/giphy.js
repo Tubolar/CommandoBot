@@ -8,7 +8,7 @@ module.exports.run = async (bot, msg, args) => {
 				.get('http://api.giphy.com/v1/gifs/search')
 				.query({
 					q: query,
-					api_key: process.env.API_GIPHY_KEY,
+					api_key: process.env.API_GIPHY_TOKEN,
 					rating: msg.channel.nsfw ? 'r' : 'pg'
                 });
                 if (!body.data.length) return msg.channel.sendEmbed(new Discord.RichEmbed().setDescription("Ничего не найдено."));
