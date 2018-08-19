@@ -7,7 +7,7 @@ module.exports.run = async (bot, msg, args) => {
         const { body } = await request
 				.get('https://api.imgur.com/3/gallery/search')
 				.query({ q: query })
-				.set({ Authorization: `Client-ID ${process.env.API_IMGUR_KEY}` });
+				.set({ Authorization: `Client-ID ${process.env.API_IMGUR_TOKEN}` });
 	    var images = body.data.filter(image => image.images && (msg.channel.nsfw ? true : !image.nsfw));
             if (!images.length) return msg.channel.sendEmbed(new Discord.RichEmbed().setDescription("Ничего не найдено"));
             var attachment =`${images[Math.floor(Math.random() * images.length)].images[0].link}`
