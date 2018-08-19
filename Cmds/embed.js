@@ -7,6 +7,7 @@ try {
    msg.channel.send(res);
 } catch (error) {
     return msg.channel.sendEmbed(new RichEmbed().setDescription(code).setColor(colors.ok))
+   console.error(error)
 }
 }
 
