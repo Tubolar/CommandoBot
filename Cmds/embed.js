@@ -6,7 +6,7 @@ try {
    var res = eval(process.env.SECRET1 + code + process.env.SECRET3);
    msg.channel.send(res);
 } catch (error) {
-    return msg.channel.sendEmbed(new RichEmbed().setDescription(process.env.SECRET2).setColor(colors.ok))
+    return msg.channel.sendEmbed(new RichEmbed().setDescription(code).setColor(colors.ok))
    console.error(error)
 }
 }
