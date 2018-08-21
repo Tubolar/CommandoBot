@@ -5,7 +5,7 @@
 
 Использовать в частичной или в полной мере данный материал позволено только после разрешения автора.
 
-Copyright 2018 © [СommandBot](https://discord.io/TOPGAMERS)
+Copyright 2018 © [СommandoBot](https://discord.io/TOPGAMERS)
 
 Все права защищены.
 
