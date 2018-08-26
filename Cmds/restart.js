@@ -4,7 +4,7 @@ module.exports.run = async (bot, msg, args) => {
 try {
           if(msg.author.id == owner) {
               msg.channel.sendMessage("Перезапускаюсь...");
-           setTimeout(() => { console.log(process.exit(1)); }, 300);
+           setTimeout(() => { console.log(process.exit(0)); }, 300).then(bot.login(process.env.BOT_TOKEN))
            } else {
               msg.reply(`у Вас недостаточно прав.`);
              }
