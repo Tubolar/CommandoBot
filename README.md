@@ -9,7 +9,7 @@ Copyright 2018 © [СommandoBot](https://discord.io/TOPGAMERS "кликни,чт
 <p>
   Сервер TOP-GAMERS
 <a href="https://discord.io/TOPGAMERS">
-<img src="https://images-ext-2.discordapp.net/external/UTfF_wfOvVL5ZUct_Ocl3S1awLeowd4FNEBhzc_u1do/https/cdn.discordapp.com/icons/414528524943228928/832c18e030aec2e667e1a22bb01e3ae7.jpg" height="50" width="50"></a>
+<img src="https://images-ext-2.discordapp.net/external/UTfF_wfOvVL5ZUct_Ocl3S1awLeowd4FNEBhzc_u1do/https/cdn.discordapp.com/icons/414528524943228928/832c18e030aec2e667e1a22bb01e3ae7.jpg" height="20" width="20"></a>
   </p>
 
 
