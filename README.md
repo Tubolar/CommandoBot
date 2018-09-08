@@ -5,13 +5,11 @@
 
 Использовать в частичной или в полной мере данный материал позволено только после разрешения автора.
 
-Copyright 2018 © [СommandoBot](https://discord.io/TOPGAMERS "кликни,чтобы попасть на сервер TOP-GAMERS.")
-
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png" width = "20" height = "20">
+Copyright 2018 © [СommandoBot](https://discord.io/TOPGAMERS "кликни,чтобы попасть на сервер TOP-GAMERS.") <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png" width = "15" height = "15">
 <p>
   Сервер TOP-GAMERS
 <a href="https://discord.io/TOPGAMERS">
-<img src="https://images-ext-2.discordapp.net/external/UTfF_wfOvVL5ZUct_Ocl3S1awLeowd4FNEBhzc_u1do/https/cdn.discordapp.com/icons/414528524943228928/832c18e030aec2e667e1a22bb01e3ae7.jpg" height="20" width="20"></a>
+<img src="https://images-ext-2.discordapp.net/external/UTfF_wfOvVL5ZUct_Ocl3S1awLeowd4FNEBhzc_u1do/https/cdn.discordapp.com/icons/414528524943228928/832c18e030aec2e667e1a22bb01e3ae7.jpg" height="50" width="50"></a>
   </p>
 
 
