@@ -5,7 +5,7 @@
 
 Использовать в частичной или в полной мере данный материал позволено только после разрешения автора.
 
-Copyright 2018 © [СommandoBot](https://discord.io/TOPGAMERS "кликни,чтобы попасть на сервер TOP-GAMERS.") <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png" width = "15" height = "15">
+Copyright 2018 © СommandoBot <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cog_font_awesome.svg/2000px-Cog_font_awesome.svg.png" width = "15" height = "15">
 <p>
   Сервер TOP-GAMERS - 
 <a href="https://discord.io/TOPGAMERS">
